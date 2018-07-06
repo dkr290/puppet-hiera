@@ -1,0 +1,10 @@
+---
+profile::tomcat::rules:
+ - 'name': '80 port'
+   'proto': 'tcp'
+   'dport':  80
+   'action': 'accept'
+ - 'name': '8080 port'
+   'proto': 'tcp'
+   'dport':  8080
+   'action': 'accept'
